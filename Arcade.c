@@ -110,7 +110,8 @@ do {
         printf("A: Capitao America | B: Homem de Ferro | C: Hulk | D: Thor\n");
         printf("Sua resposta: ");
         scanf(" %c", &resposta1);
-
+		while (getchar() != '\n');
+		
         if (resposta1 == 'B' || resposta1 == 'b') {
             printf("Parabens! Correta! +10 pontos.\n");
             PontosRodada += 10;
@@ -138,6 +139,7 @@ do 	{
 		printf("A: Vingadores Ultimato | B: Titanic | C: Avatar (2009) | D: Star Wars O Despertar da Forca\n");
 		printf("Sua resposta: ");			
 		scanf(" %c",&resposta2);
+		while (getchar() != '\n');
 		
 		if(resposta2 == 'C' || resposta2 == 'c'){
     		printf("Correto! Voce acertou e ganhou 10 pontos por essa pergunta continue assim\n");
@@ -157,6 +159,7 @@ do 	{
 		printf("A: Paysandu | B: Aguia de Maraba | C: ManausFC | D: Remo\n");
 		printf("Sua resposta: ");
 		scanf(" %c",&resposta3);
+		while (getchar() != '\n');
 		
 		if(resposta3 == 'D' || resposta3 == 'd'){
     	printf("Correto!Voce acertou e ganhou 10 pontos e sabe a verdade\n");
@@ -177,6 +180,7 @@ do 	{
 		printf("A: Pascal | B: Cobol | C: Assembly | D: Linguagem C/C++\n");
 		printf("Sua resposta: ");
 		scanf(" %c",&resposta4);
+		while (getchar() != '\n');
 		
 		if(resposta4 == 'D' || resposta4 == 'd'){
     	printf("Correto! Boa ja tem uma nocao de C e uma linguagem mais entendivel ganhou 10 pontos e sabe a verdade\n");
@@ -196,6 +200,7 @@ do{
 		printf("A: Batman | B: Superman |  C: Flash | D: Mulher-Maravilha\n");
 		printf("Sua resposta: ");
 		scanf(" %c",&resposta5);
+		while (getchar() != '\n');
 		
 		if(resposta5 == 'A' || resposta5 == 'a'){
  		printf("Correto! Boa tem bom gosto \n");
