@@ -504,12 +504,12 @@ int quem_comeca_sorteio = rand() % 2;
 
             if (turno == 1) {
                 if (atacante == 1 && p1_g1 == 0) { 
-                    printf("Gousma 1 mor!\n"); 
+                    printf("Gousma 1 foi finalizada!\n"); 
                     Sleep(1500); 
                     continue; 
                 }
                 if (atacante == 2 && p1_g2 == 0) { 
-                    printf("Gousma 2 morreu!\n"); 
+                    printf("Gousma 2 foi derrotada!\n"); 
                     Sleep(1500); 
                     continue; 
                 }
@@ -535,7 +535,7 @@ int quem_comeca_sorteio = rand() % 2;
             } 
             else { 
                 if (atacante == 1 && p2_g1 == 0) { 
-                    printf("Gousma 1 morreu!\n"); 
+                    printf("Gousma 1 faleceu!\n"); 
                     Sleep(1500); 
                     continue; 
                 }
