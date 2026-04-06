@@ -8,11 +8,11 @@ int Pergunta_E_Resposta();
 int Cobra_Na_Caixa();
 int Gousmas_War();
 int Sair();
-int scoreTotal;
-scoreTotal= 0;
 
 int main() {
     int opcao;
+	int scoreTotal;
+	scoreTotal= 0;
     
     do {
         system("cls");
